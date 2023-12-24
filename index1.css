@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body,html{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+}
+
+@font-face{
+    font-family: 'myFirstFont';
+    src: url('./Bleeding_Cowboys.ttf')
+}
+.title{
+    margin: 10px auto;
+    width: 55vw;
+    height: 5vh;   
+    line-height: 5vh;
+    border-radius: 40px;
+    overflow: hidden;
+    font-size: 15px;
+    font-style: italic; 
+    font-family: 'myFirstFont';
+    color: red;
+}
+@keyframes myMove{
+    from{
+        transform: rotateY(0deg);
+    }
+    to{
+        transform: rotateY(360deg);
+    }
+}
+
+
+
+#text {
+    margin: 0 auto  ;
+    width: 80vw;    
+    height: 100px;
+    background: red;
+}
+
+img {
+    width: 100vw;
+    height: 80vh;
+}
+
